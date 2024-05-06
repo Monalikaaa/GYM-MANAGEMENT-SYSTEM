@@ -1,0 +1,68 @@
+/* User-specific styles go here */
+h2 {
+    color: #6610f2; /* Purple color */
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    background-color: #6610f2;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5809e0; /* Darker shade of purple on hover */
+}
+
+/* Styles for user dashboard */
+.user-dashboard {
+    background-color: #f0f0f0; /* Light gray background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.user-dashboard h3 {
+    color: #333; /* Dark gray text color */
+    margin-bottom: 10px;
+}
+
+.user-dashboard .section {
+    margin-bottom: 20px;
+}
+
+.user-dashboard .section-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.user-dashboard .section-content {
+    padding: 10px;
+    background-color: #fff; /* White background */
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.user-dashboard .section-content table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.user-dashboard .section-content table th,
+.user-dashboard .section-content table td {
+    padding: 8px;
+    border: 1px solid #dee2e6; /* Light gray border */
+}
+
+.user-dashboard .section-content table th {
+    background-color: #f2f2f2; /* Light gray background */
+    font-weight: bold;
+    text-align: left;
+}
+
+.user-dashboard .section-content table tbody tr:nth-child(even) {
+    background-color: #f8f9fa; /* Alternate row background color */
+}

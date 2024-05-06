@@ -1,0 +1,68 @@
+/* Members-specific styles go here */
+h2 {
+    color: #28a745; /* Green color */
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838; /* Darker shade of green on hover */
+}
+
+/* Styles for member profile section */
+.member-profile {
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.member-profile h3 {
+    color: #343a40; /* Dark gray text color */
+    margin-bottom: 10px;
+}
+
+.member-profile .section {
+    margin-bottom: 20px;
+}
+
+.member-profile .section-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.member-profile .section-content {
+    padding: 10px;
+    background-color: #fff; /* White background */
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.member-profile .section-content table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.member-profile .section-content table th,
+.member-profile .section-content table td {
+    padding: 8px;
+    border: 1px solid #dee2e6; /* Light gray border */
+}
+
+.member-profile .section-content table th {
+    background-color: #f2f2f2; /* Light gray background */
+    font-weight: bold;
+    text-align: left;
+}
+
+.member-profile .section-content table tbody tr:nth-child(even) {
+    background-color: #f8f9fa; /* Alternate row background color */
+}
